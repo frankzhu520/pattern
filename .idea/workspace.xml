@@ -13,111 +13,79 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SimpleFactoryTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/simplefactory/SimpleFactoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+      <file leaf-file-name="JAVA/com.demo.pattern.factory.abstractfactory.AbstractFactoryTest" pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/com.demo.pattern.factory.abstractfactory.AbstractFactoryTest">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.demo.pattern.factory.abstractfactory.AbstractFactoryTest</OriginalElement>
+              <nodes>
+                <node x="284.0" y="314.0">com.demo.pattern.factory.abstractfactory.AbstractFactoryTest</node>
+                <node x="104.0" y="0.0">com.demo.pattern.factory.abstractfactory.CourseFactory</node>
+                <node x="0.0" y="238.0">com.demo.pattern.factory.abstractfactory.JavaVideo</node>
+                <node x="0.0" y="395.0">com.demo.pattern.factory.abstractfactory.JavaNote</node>
+                <node x="0.0" y="81.0">com.demo.pattern.factory.abstractfactory.JavaCourseFactory</node>
+                <node x="121.0" y="395.0">com.demo.pattern.factory.abstractfactory.PythonNote</node>
+                <node x="77.75" y="157.0">com.demo.pattern.factory.abstractfactory.IVideo</node>
+                <node x="75.25" y="314.0">com.demo.pattern.factory.abstractfactory.INote</node>
+                <node x="126.0" y="238.0">com.demo.pattern.factory.abstractfactory.PythonVideo</node>
+                <node x="176.0" y="81.0">com.demo.pattern.factory.abstractfactory.PythonCourseFactory</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="com.demo.pattern.factory.abstractfactory.JavaVideo" target="com.demo.pattern.factory.abstractfactory.IVideo">
+                  <point x="0.0" y="-15.5" />
+                  <point x="53.0" y="213.0" />
+                  <point x="99.0" y="213.0" />
+                  <point x="-21.25" y="15.5" />
+                </edge>
+                <edge source="com.demo.pattern.factory.abstractfactory.JavaCourseFactory" target="com.demo.pattern.factory.abstractfactory.CourseFactory">
+                  <point x="0.0" y="-15.5" />
+                  <point x="78.0" y="56.0" />
+                  <point x="137.0" y="56.0" />
+                  <point x="-33.0" y="15.5" />
+                </edge>
+                <edge source="com.demo.pattern.factory.abstractfactory.PythonNote" target="com.demo.pattern.factory.abstractfactory.INote">
+                  <point x="0.0" y="-15.5" />
+                  <point x="180.0" y="370.0" />
+                  <point x="135.25" y="370.0" />
+                  <point x="20.0" y="15.5" />
+                </edge>
+                <edge source="com.demo.pattern.factory.abstractfactory.PythonVideo" target="com.demo.pattern.factory.abstractfactory.IVideo">
+                  <point x="0.0" y="-15.5" />
+                  <point x="187.5" y="213.0" />
+                  <point x="141.5" y="213.0" />
+                  <point x="21.25" y="15.5" />
+                </edge>
+                <edge source="com.demo.pattern.factory.abstractfactory.JavaNote" target="com.demo.pattern.factory.abstractfactory.INote">
+                  <point x="0.0" y="-15.5" />
+                  <point x="50.5" y="370.0" />
+                  <point x="95.25" y="370.0" />
+                  <point x="-20.0" y="15.5" />
+                </edge>
+                <edge source="com.demo.pattern.factory.abstractfactory.PythonCourseFactory" target="com.demo.pattern.factory.abstractfactory.CourseFactory">
+                  <point x="0.0" y="-15.5" />
+                  <point x="262.0" y="56.0" />
+                  <point x="203.0" y="56.0" />
+                  <point x="33.0" y="15.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="224.5" y="213.0" />
+              <SelectedNodes>
+                <node>com.demo.pattern.factory.abstractfactory.AbstractFactoryTest</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="JavaCourseFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../gupaoedu-vip-pattern-factory/src/main/java/com/gupaoedu/vip/pattern/factory/factorymethod/JavaCourseFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="25">
-                <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/factorymethod/IFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OnePlusPhoneFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/factorymethod/OnePlusPhoneFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#173#174#0" expanded="true" />
-                <element signature="e#200#201#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OnePlusPhone.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/OnePlusPhone.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/abstractfactory/JavaCourseFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SmartisanPhoneFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/factorymethod/SmartisanPhoneFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#174#175#0" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FactoryMethodTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../gupaoedu-vip-pattern-factory/src/main/java/com/gupaoedu/vip/pattern/factory/factorymethod/FactoryMethodTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FactoryMethodTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/factorymethod/FactoryMethodTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ICourseFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../gupaoedu-vip-pattern-factory/src/main/java/com/gupaoedu/vip/pattern/factory/factorymethod/ICourseFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -152,6 +120,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/factorymethod/OnePlusPhoneFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/factorymethod/SmartisanPhoneFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/factorymethod/FactoryMethodTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/abstractfactory/INote.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/abstractfactory/IVideo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/abstractfactory/CourseFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/abstractfactory/JavaNote.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/abstractfactory/JavaVideo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/abstractfactory/PythonNote.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/abstractfactory/PythonVideo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/abstractfactory/JavaCourseFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/abstractfactory/PythonCourseFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/abstractfactory/AbstractFactoryTest.java" />
       </list>
     </option>
   </component>
@@ -196,95 +174,6 @@
               <item name="gupaoedu-vip-pattern-factory" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gupaoedu-vip-pattern-factory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gupaoedu-vip-pattern-factory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gupaoedu-vip-pattern-factory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gupaoedu-vip-pattern-factory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="factorymethod" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="factorymethod" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="simplefactory" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -319,7 +208,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.AbstractFactoryTest">
+    <configuration name="AbstractFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.pattern.factory.abstractfactory.AbstractFactoryTest" />
+      <module name="pattern" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.pattern.factory.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="FactoryMethodTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.demo.pattern.factory.factorymethod.FactoryMethodTest" />
       <module name="pattern" />
@@ -372,8 +272,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.FactoryMethodTest" />
+      <item itemvalue="Application.AbstractFactoryTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AbstractFactoryTest" />
         <item itemvalue="Application.FactoryMethodTest" />
       </list>
     </recent_temporary>
@@ -388,26 +293,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552819878530</updated>
-      <workItem from="1552819883477" duration="6668000" />
+      <workItem from="1552819883477" duration="8505000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6668000" />
+    <option name="totallyTimeSpent" value="8505000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" weight="0.32876712" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22191781" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
@@ -533,7 +438,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/simplefactory/SimpleFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -547,20 +452,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gupaoedu-vip-pattern-factory/src/main/java/com/gupaoedu/vip/pattern/factory/factorymethod/JavaCourseFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+    <entry file="file://$PROJECT_DIR$/doc/factory/factorymethod.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="uml://JAVA/com.demo.pattern.factory.factorymethod.IFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.demo.pattern.factory.factorymethod.IFactory</OriginalElement>
+          <nodes>
+            <node x="" y="">com.demo.pattern.factory.IPhone</node>
+            <node x="" y="">com.demo.pattern.factory.factorymethod.IFactory</node>
+            <node x="" y="">com.demo.pattern.factory.factorymethod.FactoryMethodTest</node>
+            <node x="" y="">com.demo.pattern.factory.factorymethod.OnePlusPhoneFactory</node>
+            <node x="" y="">com.demo.pattern.factory.SmartisanPhone</node>
+            <node x="" y="">com.demo.pattern.factory.OnePlusPhone</node>
+            <node x="" y="">com.demo.pattern.factory.factorymethod.SmartisanPhoneFactory</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="47.0" y="96.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="25">
-            <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/factorymethod/FactoryMethodTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -571,10 +496,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/factorymethod/IFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/factorymethod/SmartisanPhoneFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="175">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -597,25 +527,209 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/factorymethod/SmartisanPhoneFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/factorymethod/IFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/factorymethod/FactoryMethodTest.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="25">
+            <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gupaoedu-vip-pattern-factory/src/main/java/com/gupaoedu/vip/pattern/factory/factorymethod/JavaCourseFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="175">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gupaoedu-vip-pattern-factory/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/INote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gupaoedu-vip-pattern-factory/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/IVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/abstractfactory/IVideo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gupaoedu-vip-pattern-factory/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/CourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" lean-forward="true" selection-start-line="8" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/abstractfactory/CourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gupaoedu-vip-pattern-factory/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/JavaNote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/abstractfactory/JavaNote.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gupaoedu-vip-pattern-factory/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/JavaVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/abstractfactory/JavaVideo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gupaoedu-vip-pattern-factory/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/PythonNote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/abstractfactory/PythonNote.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gupaoedu-vip-pattern-factory/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/PythonVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/abstractfactory/PythonVideo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gupaoedu-vip-pattern-factory/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/JavaCourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" selection-start-line="5" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gupaoedu-vip-pattern-factory/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/PythonCourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" selection-start-line="5" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/abstractfactory/PythonCourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gupaoedu-vip-pattern-factory/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/AbstractFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" selection-start-line="5" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/abstractfactory/AbstractFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/abstractfactory/INote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/abstractfactory/JavaCourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.demo.pattern.factory.abstractfactory.AbstractFactoryTest">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.demo.pattern.factory.abstractfactory.AbstractFactoryTest</OriginalElement>
+          <nodes>
+            <node x="284.0" y="314.0">com.demo.pattern.factory.abstractfactory.AbstractFactoryTest</node>
+            <node x="104.0" y="0.0">com.demo.pattern.factory.abstractfactory.CourseFactory</node>
+            <node x="0.0" y="238.0">com.demo.pattern.factory.abstractfactory.JavaVideo</node>
+            <node x="0.0" y="395.0">com.demo.pattern.factory.abstractfactory.JavaNote</node>
+            <node x="0.0" y="81.0">com.demo.pattern.factory.abstractfactory.JavaCourseFactory</node>
+            <node x="121.0" y="395.0">com.demo.pattern.factory.abstractfactory.PythonNote</node>
+            <node x="77.75" y="157.0">com.demo.pattern.factory.abstractfactory.IVideo</node>
+            <node x="75.25" y="314.0">com.demo.pattern.factory.abstractfactory.INote</node>
+            <node x="126.0" y="238.0">com.demo.pattern.factory.abstractfactory.PythonVideo</node>
+            <node x="176.0" y="81.0">com.demo.pattern.factory.abstractfactory.PythonCourseFactory</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.demo.pattern.factory.abstractfactory.JavaVideo" target="com.demo.pattern.factory.abstractfactory.IVideo">
+              <point x="0.0" y="-15.5" />
+              <point x="53.0" y="213.0" />
+              <point x="99.0" y="213.0" />
+              <point x="-21.25" y="15.5" />
+            </edge>
+            <edge source="com.demo.pattern.factory.abstractfactory.JavaCourseFactory" target="com.demo.pattern.factory.abstractfactory.CourseFactory">
+              <point x="0.0" y="-15.5" />
+              <point x="78.0" y="56.0" />
+              <point x="137.0" y="56.0" />
+              <point x="-33.0" y="15.5" />
+            </edge>
+            <edge source="com.demo.pattern.factory.abstractfactory.PythonNote" target="com.demo.pattern.factory.abstractfactory.INote">
+              <point x="0.0" y="-15.5" />
+              <point x="180.0" y="370.0" />
+              <point x="135.25" y="370.0" />
+              <point x="20.0" y="15.5" />
+            </edge>
+            <edge source="com.demo.pattern.factory.abstractfactory.PythonVideo" target="com.demo.pattern.factory.abstractfactory.IVideo">
+              <point x="0.0" y="-15.5" />
+              <point x="187.5" y="213.0" />
+              <point x="141.5" y="213.0" />
+              <point x="21.25" y="15.5" />
+            </edge>
+            <edge source="com.demo.pattern.factory.abstractfactory.JavaNote" target="com.demo.pattern.factory.abstractfactory.INote">
+              <point x="0.0" y="-15.5" />
+              <point x="50.5" y="370.0" />
+              <point x="95.25" y="370.0" />
+              <point x="-20.0" y="15.5" />
+            </edge>
+            <edge source="com.demo.pattern.factory.abstractfactory.PythonCourseFactory" target="com.demo.pattern.factory.abstractfactory.CourseFactory">
+              <point x="0.0" y="-15.5" />
+              <point x="262.0" y="56.0" />
+              <point x="203.0" y="56.0" />
+              <point x="33.0" y="15.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="224.5" y="213.0" />
+          <SelectedNodes>
+            <node>com.demo.pattern.factory.abstractfactory.AbstractFactoryTest</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
