@@ -41,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LazyDoubleCheckSingleton.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LazyDoubleCheckSingleton.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../gupaoedu-vip-pattern-singleton/gupaoedu-vip-pattern-singleton/src/main/java/com/gupaoedu/vip/pattern/singleton/lazy/LazyDoubleCheckSingleton.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
@@ -53,8 +53,30 @@
       <file leaf-file-name="LazyInnerClassSingleton.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../gupaoedu-vip-pattern-singleton/gupaoedu-vip-pattern-singleton/src/main/java/com/gupaoedu/vip/pattern/singleton/lazy/LazyInnerClassSingleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="200">
+              <caret line="20" lean-forward="true" selection-start-line="12" selection-end-line="33" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LazyInnerClassSingleton.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/pattern/singleton/LazyInnerClassSingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding>
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContainerSingleton.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../gupaoedu-vip-pattern-singleton/gupaoedu-vip-pattern-singleton/src/main/java/com/gupaoedu/vip/pattern/singleton/register/ContainerSingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -99,6 +121,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/abstractfactory/JavaCourseFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/abstractfactory/PythonCourseFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/pattern/factory/abstractfactory/AbstractFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/pattern/singleton/LazyInnerClassSingleton.java" />
       </list>
     </option>
   </component>
@@ -188,7 +211,78 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="register" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gupaoedu-vip-pattern-singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
               <item name="seriable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gupaoedu-vip-pattern-singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gupaoedu-vip-pattern-singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gupaoedu-vip-pattern-singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -313,15 +407,15 @@
       <option name="presentableId" value="Default" />
       <updated>1552819878530</updated>
       <workItem from="1552819883477" duration="8505000" />
-      <workItem from="1552917187489" duration="1677000" />
+      <workItem from="1552917187489" duration="2265000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10182000" />
+    <option name="totallyTimeSpent" value="10770000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -395,13 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -623,13 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gupaoedu-vip-pattern-singleton/gupaoedu-vip-pattern-singleton/src/main/java/com/gupaoedu/vip/pattern/singleton/lazy/LazyInnerClassSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../gupaoedu-vip-pattern-singleton/gupaoedu-vip-pattern-singleton/src/main/java/com/gupaoedu/vip/pattern/singleton/lazy/LazySimpleSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -637,10 +717,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/singleton/singleton作业.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../gupaoedu-vip-pattern-singleton/gupaoedu-vip-pattern-singleton/src/main/java/com/gupaoedu/vip/pattern/singleton/lazy/LazyDoubleCheckSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gupaoedu-vip-pattern-singleton/gupaoedu-vip-pattern-singleton/src/main/java/com/gupaoedu/vip/pattern/singleton/register/ContainerSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gupaoedu-vip-pattern-singleton/gupaoedu-vip-pattern-singleton/src/main/java/com/gupaoedu/vip/pattern/singleton/lazy/LazyInnerClassSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="20" lean-forward="true" selection-start-line="12" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/pattern/singleton/LazyInnerClassSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -661,7 +778,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
