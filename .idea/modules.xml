@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../gupaoedu-vip-pattern-factory/gupaoedu-vip-pattern-factory.iml" filepath="$PROJECT_DIR$/../gupaoedu-vip-pattern-factory/gupaoedu-vip-pattern-factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../gupaoedu-vip-pattern-singleton/gupaoedu-vip-pattern-singleton/gupaoedu-vip-pattern-singleton.iml" filepath="$PROJECT_DIR$/../gupaoedu-vip-pattern-singleton/gupaoedu-vip-pattern-singleton/gupaoedu-vip-pattern-singleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern.iml" filepath="$PROJECT_DIR$/pattern.iml" />
     </modules>
   </component>
