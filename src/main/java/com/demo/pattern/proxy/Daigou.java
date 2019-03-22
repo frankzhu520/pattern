@@ -23,6 +23,6 @@ public class Daigou implements InvocationHandler {
     }
 
     private void after(){
-        System.out.println("你说代购的物品已经发快递！请注意查收。");
+        System.out.println("你所代购的物品已经发快递！请注意查收。");
     }
 }
